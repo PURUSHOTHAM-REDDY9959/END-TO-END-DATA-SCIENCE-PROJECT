@@ -48,7 +48,15 @@ This project walks you through the process of:
 
 It provides a simple, educational, and production-ready structure that you can reuse for your own ML deployment projects.
 
----
+## 🧠 Machine Learning Pipeline
+
+The pipeline follows these steps:
+
+1. **Data Loading**: Use `sklearn.datasets.load_iris()` to import the Iris dataset.
+2. **Data Splitting**: Use `train_test_split` to separate the data into training and test sets.
+3. **Feature Scaling**: Apply `StandardScaler` to normalize the features.
+4. **Model Training**: Train a `RandomForestClassifier`, a robust and efficient classifier.
+5. **Serialization**: Save the trained model and scaler using `pickle`.
 
 ## 🗂️ Project Structure
 
