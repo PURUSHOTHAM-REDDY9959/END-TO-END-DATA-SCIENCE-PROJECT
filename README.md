@@ -17,7 +17,10 @@
 
 # 🌸 Iris Flower Classification – End-to-End Data Science Project
 
-This repository contains a complete end-to-end data science project that demonstrates how to go from **data collection and preprocessing** to **model training, saving, and deployment** using **Flask**. The project is based on the popular **Iris Flower Classification** problem using a machine learning model built with `scikit-learn`.
+This repository contains a complete end-to-end data science project that demonstrates how to go from **data collection and preprocessing** to **model training, saving, and deployment** using **Flask**. The project is based on the popular **Iris Flower Classification** problem using a machine learning model built with `scikit-learn`.It covers everything from data collection and preprocessing to training a model and deploying it using a web framework. In this case, we use Flask to build a web application that lets users input values and receive predictions about the species of an iris flower.
+
+This application is ideal for beginners and intermediate learners who are interested in how machine learning can be integrated into real-world applications. It walks through how to prepare and scale data, train a model using scikit-learn, save the model using pickle, and create a user interface using Flask.
+The web application allows users to input four features related to a flower (sepal length, sepal width, petal length, and petal width), and it responds with a predicted flower species. The prediction is generated in real time using a trained machine learning model running in the background.
 ## 📚 Dataset: Iris
 
 The **Iris dataset** is a well-known classification dataset in the machine learning community. It contains 150 instances of iris flowers, each described by four numerical features:
